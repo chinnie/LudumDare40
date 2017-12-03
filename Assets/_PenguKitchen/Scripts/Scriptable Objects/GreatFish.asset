@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: GreatFish
+  m_EditorClassIdentifier: Assembly-CSharp::Fishholder
+  FishPrefab:
+  - {fileID: 1229240088693454, guid: f29d6610fd48b89458af3b8ad5d86603, type: 2}
+  - {fileID: 1460492195279822, guid: bb5ec00f876b9534f96fd6f3ec2f83ca, type: 2}
+  - {fileID: 1364687155701756, guid: 0d10bf890c16e4d46aaa12db87deda97, type: 2}
+  - {fileID: 1513903289036902, guid: a35ae62194eddf2418963a5713823441, type: 2}
+  FishPos: {fileID: 0}
+  Amount: 2
+  oldAmount: 0

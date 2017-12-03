@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LudumDare40.Plugins", "LudumDare40.Plugins.csproj", "{2F41BCA4-78F8-C9D5-4F13-CD62113021E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LudumDare40", "LudumDare40.csproj", "{9A273CCF-0FD1-65B8-8B7E-DD0F0A0E1545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LudumDare40.Editor.Plugins", "LudumDare40.Editor.Plugins.csproj", "{D71785AC-2AC0-DECA-AF12-E75095965FCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F41BCA4-78F8-C9D5-4F13-CD62113021E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F41BCA4-78F8-C9D5-4F13-CD62113021E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F41BCA4-78F8-C9D5-4F13-CD62113021E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F41BCA4-78F8-C9D5-4F13-CD62113021E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A273CCF-0FD1-65B8-8B7E-DD0F0A0E1545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A273CCF-0FD1-65B8-8B7E-DD0F0A0E1545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A273CCF-0FD1-65B8-8B7E-DD0F0A0E1545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A273CCF-0FD1-65B8-8B7E-DD0F0A0E1545}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D71785AC-2AC0-DECA-AF12-E75095965FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71785AC-2AC0-DECA-AF12-E75095965FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71785AC-2AC0-DECA-AF12-E75095965FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71785AC-2AC0-DECA-AF12-E75095965FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
