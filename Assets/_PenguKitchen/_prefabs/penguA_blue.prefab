@@ -52,7 +52,7 @@ GameObject:
   - component: {fileID: 95465570664934810}
   - component: {fileID: 136351554395702506}
   m_Layer: 0
-  m_Name: penguA
+  m_Name: penguA_blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
