@@ -10,6 +10,8 @@ public class GameStateManager : MonoBehaviour
     public GM_SpawnModule customerSpawner;      //Reference to the pengu spawner
     public GM_DanceModule dancerSpawner;        //Reference to the module that manages the player's advertiser
     public GM_LandlordModule landlordSpawner;   //Reference to the module that manages the landlord
+    public GM_CookingModule cookingManager;
+    public GM_Trash trashManager;
 
     [Header("Currencies")]
     [SerializeField] int greatFishcount;
@@ -26,8 +28,9 @@ public class GameStateManager : MonoBehaviour
     GameObject greatFishStack;
 
     int Fishpoints;
-    bool fishchanged;
-
+    int Day;
+    int Ambiance;
+    
     void Awake()
     {
         if (instance == null)
@@ -98,15 +101,14 @@ public class GameStateManager : MonoBehaviour
     {
         Debug.Log("Inisializing Stacks of Fish");
         if (customerSpawner == null) customerSpawner = GetComponent<GM_SpawnModule>();
-
         if (dancerSpawner == null) dancerSpawner = GetComponent<GM_DanceModule>();
-
         if (landlordSpawner == null) landlordSpawner = GetComponent<GM_LandlordModule>();
-    }
+        if (cookingManager == null) cookingManager = GetComponent<GM_CookingModule>();
+        if (trashManager == null) trashManager = GetComponent<GM_Trash>();
+}
     
     public void AddPoints(CurrencyFish fish)
     {
         Fishpoints += fish.quality;
-
     } 
 }
